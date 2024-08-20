@@ -19,7 +19,7 @@ jobs:
     uses: ./.github/workflows/deploy-template.yml
     secrets: inherit
     with:
-      AZURE_ENV_NAME: EDIT-dev # edit to match the name of your environment
+      AZURE_ENV_NAME: gptrag-dev # edit to match the name of your environment
 
   deploy-test:
     uses: ./.github/workflows/deploy-template.yml
